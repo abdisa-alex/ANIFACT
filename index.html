@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title></title>
+</head>
+<body>
+    <header id="home" class="header">
+        <h1  class="header__text">Ani Facts</h1>
+        <div class="navigation">
+            <ul class="lists">
+                <li class="items item__home"><a href="#home" class="nav"><i class="fa-solid fa-house"></i></a></li>
+                <li class="items item__stuff"><a href="#fact" class="nav"><i class="fa-solid fa-paw"></i></a></li>
+                <li class="items item__about"><a href="#dev" class="nav"><i class="fa-brands fa-dev"></i></a></li>
+                <li class="items item__contact"><a href="https://abdisa-alemu.netlify.app/" class="nav"><i class="fa-solid fa-user"></i></a></li>
+            </ul>
+            <div class="hero">
+                <div class="hero_img">
+                </div>
+                <div class="hero__section">
+                    <h1 class="hero__text">Random Animal Facts That May Surprise You</h1>
+                    <div class="animation">
+                        <a href="#fact" class="hero__link">Jump to facts &rarr;</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="down_arrow"><i class="fa-solid fa-chevron-down down_arrow"></i></a>
+        </header>
+
+        <main id="fact" class="main-section">
+            <h2 class="card__section-header">Facts</h2>
+            <section class="card">
+                <div class="card__section">
+                    <div class="facts">
+                        <p  class="fact">Click 'GENERATE' to read cool facts about animals.</p>
+                    </div>
+                </div>
+                <div class="gen-btn">Generate</div>
+            </section>
+
+            <section id="dev" class="about-section">
+                <h2 class="dev-name">It's me Abdisa Alemu</h2>
+                <div class="dev-data">
+                    <p  class="about-dev">
+                        Hello, I am abdisa the owner of this page i develop this site to update my css skill, to learn how http apis works and fetching data from the internet. Techs i use to build this site HTML , CSS , TS and AXIOS to make requests. 
+                    </p>
+                    <a href="https://abdisa-alemu.netlify.app/" class="more-about-dev">More about dev &rarr;</a>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer-section">
+                <span class="copyright">
+                    &copy; 2022 All right reserved, Abdisa Alemu 
+                </span>
+            </div>
+        </footer>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="./dist/index.js"></script>
+    </body>
+</div>
+</html>
